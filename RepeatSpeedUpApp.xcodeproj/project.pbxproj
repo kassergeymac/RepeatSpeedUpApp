@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9012F69924548C280095C7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F69824548C280095C7F9 /* AppDelegate.swift */; };
+		9012F69B24548C280095C7F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F69A24548C280095C7F9 /* ContentView.swift */; };
+		9012F69E24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9012F69C24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodeld */; };
+		9012F6A024548C2D0095C7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9012F69F24548C2D0095C7F9 /* Assets.xcassets */; };
+		9012F6A324548C2D0095C7F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9012F6A224548C2D0095C7F9 /* Preview Assets.xcassets */; };
+		9012F6A624548C2D0095C7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9012F6A424548C2D0095C7F9 /* Main.storyboard */; };
+		9012F6B224548C2D0095C7F9 /* RepeatSpeedUpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F6B124548C2D0095C7F9 /* RepeatSpeedUpAppTests.swift */; };
+		9012F6BD24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F6BC24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9012F6AE24548C2D0095C7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9012F68D24548C270095C7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9012F69424548C280095C7F9;
+			remoteInfo = RepeatSpeedUpApp;
+		};
+		9012F6B924548C2D0095C7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9012F68D24548C270095C7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9012F69424548C280095C7F9;
+			remoteInfo = RepeatSpeedUpApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9012F69524548C280095C7F9 /* RepeatSpeedUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepeatSpeedUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9012F69824548C280095C7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9012F69A24548C280095C7F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9012F69D24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RepeatSpeedUpApp.xcdatamodel; sourceTree = "<group>"; };
+		9012F69F24548C2D0095C7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9012F6A224548C2D0095C7F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9012F6A524548C2D0095C7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9012F6A724548C2D0095C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9012F6A824548C2D0095C7F9 /* RepeatSpeedUpApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RepeatSpeedUpApp.entitlements; sourceTree = "<group>"; };
+		9012F6AD24548C2D0095C7F9 /* RepeatSpeedUpAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepeatSpeedUpAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9012F6B124548C2D0095C7F9 /* RepeatSpeedUpAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatSpeedUpAppTests.swift; sourceTree = "<group>"; };
+		9012F6B324548C2D0095C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9012F6B824548C2D0095C7F9 /* RepeatSpeedUpAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepeatSpeedUpAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9012F6BC24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatSpeedUpAppUITests.swift; sourceTree = "<group>"; };
+		9012F6BE24548C2D0095C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9012F69224548C280095C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9012F6AA24548C2D0095C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9012F6B524548C2D0095C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9012F68C24548C270095C7F9 = {
+			isa = PBXGroup;
+			children = (
+				9012F69724548C280095C7F9 /* RepeatSpeedUpApp */,
+				9012F6B024548C2D0095C7F9 /* RepeatSpeedUpAppTests */,
+				9012F6BB24548C2D0095C7F9 /* RepeatSpeedUpAppUITests */,
+				9012F69624548C280095C7F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9012F69624548C280095C7F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9012F69524548C280095C7F9 /* RepeatSpeedUpApp.app */,
+				9012F6AD24548C2D0095C7F9 /* RepeatSpeedUpAppTests.xctest */,
+				9012F6B824548C2D0095C7F9 /* RepeatSpeedUpAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9012F69724548C280095C7F9 /* RepeatSpeedUpApp */ = {
+			isa = PBXGroup;
+			children = (
+				9012F69824548C280095C7F9 /* AppDelegate.swift */,
+				9012F69A24548C280095C7F9 /* ContentView.swift */,
+				9012F69F24548C2D0095C7F9 /* Assets.xcassets */,
+				9012F6A424548C2D0095C7F9 /* Main.storyboard */,
+				9012F6A724548C2D0095C7F9 /* Info.plist */,
+				9012F6A824548C2D0095C7F9 /* RepeatSpeedUpApp.entitlements */,
+				9012F69C24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodeld */,
+				9012F6A124548C2D0095C7F9 /* Preview Content */,
+			);
+			path = RepeatSpeedUpApp;
+			sourceTree = "<group>";
+		};
+		9012F6A124548C2D0095C7F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9012F6A224548C2D0095C7F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9012F6B024548C2D0095C7F9 /* RepeatSpeedUpAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9012F6B124548C2D0095C7F9 /* RepeatSpeedUpAppTests.swift */,
+				9012F6B324548C2D0095C7F9 /* Info.plist */,
+			);
+			path = RepeatSpeedUpAppTests;
+			sourceTree = "<group>";
+		};
+		9012F6BB24548C2D0095C7F9 /* RepeatSpeedUpAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9012F6BC24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift */,
+				9012F6BE24548C2D0095C7F9 /* Info.plist */,
+			);
+			path = RepeatSpeedUpAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9012F69424548C280095C7F9 /* RepeatSpeedUpApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9012F6C124548C2D0095C7F9 /* Build configuration list for PBXNativeTarget "RepeatSpeedUpApp" */;
+			buildPhases = (
+				9012F69124548C280095C7F9 /* Sources */,
+				9012F69224548C280095C7F9 /* Frameworks */,
+				9012F69324548C280095C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepeatSpeedUpApp;
+			productName = RepeatSpeedUpApp;
+			productReference = 9012F69524548C280095C7F9 /* RepeatSpeedUpApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9012F6AC24548C2D0095C7F9 /* RepeatSpeedUpAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9012F6C424548C2D0095C7F9 /* Build configuration list for PBXNativeTarget "RepeatSpeedUpAppTests" */;
+			buildPhases = (
+				9012F6A924548C2D0095C7F9 /* Sources */,
+				9012F6AA24548C2D0095C7F9 /* Frameworks */,
+				9012F6AB24548C2D0095C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9012F6AF24548C2D0095C7F9 /* PBXTargetDependency */,
+			);
+			name = RepeatSpeedUpAppTests;
+			productName = RepeatSpeedUpAppTests;
+			productReference = 9012F6AD24548C2D0095C7F9 /* RepeatSpeedUpAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9012F6B724548C2D0095C7F9 /* RepeatSpeedUpAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9012F6C724548C2D0095C7F9 /* Build configuration list for PBXNativeTarget "RepeatSpeedUpAppUITests" */;
+			buildPhases = (
+				9012F6B424548C2D0095C7F9 /* Sources */,
+				9012F6B524548C2D0095C7F9 /* Frameworks */,
+				9012F6B624548C2D0095C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9012F6BA24548C2D0095C7F9 /* PBXTargetDependency */,
+			);
+			name = RepeatSpeedUpAppUITests;
+			productName = RepeatSpeedUpAppUITests;
+			productReference = 9012F6B824548C2D0095C7F9 /* RepeatSpeedUpAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9012F68D24548C270095C7F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = kassergey;
+				TargetAttributes = {
+					9012F69424548C280095C7F9 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					9012F6AC24548C2D0095C7F9 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9012F69424548C280095C7F9;
+					};
+					9012F6B724548C2D0095C7F9 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9012F69424548C280095C7F9;
+					};
+				};
+			};
+			buildConfigurationList = 9012F69024548C270095C7F9 /* Build configuration list for PBXProject "RepeatSpeedUpApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9012F68C24548C270095C7F9;
+			productRefGroup = 9012F69624548C280095C7F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9012F69424548C280095C7F9 /* RepeatSpeedUpApp */,
+				9012F6AC24548C2D0095C7F9 /* RepeatSpeedUpAppTests */,
+				9012F6B724548C2D0095C7F9 /* RepeatSpeedUpAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9012F69324548C280095C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9012F6A624548C2D0095C7F9 /* Main.storyboard in Resources */,
+				9012F6A324548C2D0095C7F9 /* Preview Assets.xcassets in Resources */,
+				9012F6A024548C2D0095C7F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9012F6AB24548C2D0095C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9012F6B624548C2D0095C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9012F69124548C280095C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9012F69B24548C280095C7F9 /* ContentView.swift in Sources */,
+				9012F69924548C280095C7F9 /* AppDelegate.swift in Sources */,
+				9012F69E24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9012F6A924548C2D0095C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9012F6B224548C2D0095C7F9 /* RepeatSpeedUpAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9012F6B424548C2D0095C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9012F6BD24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9012F6AF24548C2D0095C7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9012F69424548C280095C7F9 /* RepeatSpeedUpApp */;
+			targetProxy = 9012F6AE24548C2D0095C7F9 /* PBXContainerItemProxy */;
+		};
+		9012F6BA24548C2D0095C7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9012F69424548C280095C7F9 /* RepeatSpeedUpApp */;
+			targetProxy = 9012F6B924548C2D0095C7F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9012F6A424548C2D0095C7F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9012F6A524548C2D0095C7F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9012F6BF24548C2D0095C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9012F6C024548C2D0095C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9012F6C224548C2D0095C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RepeatSpeedUpApp/RepeatSpeedUpApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RepeatSpeedUpApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RepeatSpeedUpApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.RepeatSpeedUpApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9012F6C324548C2D0095C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RepeatSpeedUpApp/RepeatSpeedUpApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RepeatSpeedUpApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RepeatSpeedUpApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.RepeatSpeedUpApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9012F6C524548C2D0095C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepeatSpeedUpAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.RepeatSpeedUpAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepeatSpeedUpApp.app/Contents/MacOS/RepeatSpeedUpApp";
+			};
+			name = Debug;
+		};
+		9012F6C624548C2D0095C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepeatSpeedUpAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.RepeatSpeedUpAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepeatSpeedUpApp.app/Contents/MacOS/RepeatSpeedUpApp";
+			};
+			name = Release;
+		};
+		9012F6C824548C2D0095C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepeatSpeedUpAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.RepeatSpeedUpAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RepeatSpeedUpApp;
+			};
+			name = Debug;
+		};
+		9012F6C924548C2D0095C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RepeatSpeedUpAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kassergeymac.RepeatSpeedUpAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RepeatSpeedUpApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9012F69024548C270095C7F9 /* Build configuration list for PBXProject "RepeatSpeedUpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9012F6BF24548C2D0095C7F9 /* Debug */,
+				9012F6C024548C2D0095C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9012F6C124548C2D0095C7F9 /* Build configuration list for PBXNativeTarget "RepeatSpeedUpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9012F6C224548C2D0095C7F9 /* Debug */,
+				9012F6C324548C2D0095C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9012F6C424548C2D0095C7F9 /* Build configuration list for PBXNativeTarget "RepeatSpeedUpAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9012F6C524548C2D0095C7F9 /* Debug */,
+				9012F6C624548C2D0095C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9012F6C724548C2D0095C7F9 /* Build configuration list for PBXNativeTarget "RepeatSpeedUpAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9012F6C824548C2D0095C7F9 /* Debug */,
+				9012F6C924548C2D0095C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9012F69C24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9012F69D24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodel */,
+			);
+			currentVersion = 9012F69D24548C280095C7F9 /* RepeatSpeedUpApp.xcdatamodel */;
+			path = RepeatSpeedUpApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9012F68D24548C270095C7F9 /* Project object */;
+}
