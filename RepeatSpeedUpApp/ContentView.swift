@@ -23,7 +23,6 @@ struct ContentView: View {
                 guard let filePath = self.filePath else {
                     return
                 }
-                self.speedUpPlayer.initialRate = 1
                 self.speedUpPlayer.play(filePath: filePath)
             }) {
                 Text("Play")

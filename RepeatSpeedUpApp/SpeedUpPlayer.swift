@@ -14,7 +14,7 @@ class SpeedUpPlayer: NSObject {
     private var player: AVAudioPlayer?
     
     private(set) var rate: Float = 1.0
-    var initialRate: Float = 1.0
+    var initialRate: Float = 1.5
     var speedUpRate: Float = 0.5
     
     static let shared = SpeedUpPlayer()
@@ -26,7 +26,7 @@ class SpeedUpPlayer: NSObject {
         player?.enableRate = true
         player?.rate = self.rate
         player?.play()
-        player?.setVolume(2.0, fadeDuration: 0)
+        player?.setVolume(20, fadeDuration: 0)
     }
     
     func play() {
