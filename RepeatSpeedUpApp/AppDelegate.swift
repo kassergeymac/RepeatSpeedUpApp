@@ -132,5 +132,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return .terminateNow
     }
 
+    @IBAction func openMusicFile(_ sender: Any) {
+        let openPanel = NSOpenPanel()
+        openPanel.title = "Choose audio file"
+        openPanel.showsResizeIndicator = true
+        openPanel.allowedFileTypes = ["mp3"]
+        if (openPanel.runModal() == .OK) {
+            if let result = openPanel.url {
+                let contentView = ContentView(filePath: result.path)
+                window.contentView = NSHostingView(rootView: contentView)
+            }
+        } else {
+            return
+        }
+    }
+    
 }
 
