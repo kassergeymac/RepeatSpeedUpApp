@@ -12,6 +12,11 @@ import AVFoundation
 class SpeedUpPlayer: NSObject {
     
     private var player: AVAudioPlayer?
+    var filePath: String? {
+        didSet {
+            player = nil
+        }
+    }
     
     private(set) var rate: Float = 1.0
     var initialRate: Float = 1.5
@@ -19,7 +24,14 @@ class SpeedUpPlayer: NSObject {
     
     static let shared = SpeedUpPlayer()
     
-    func play(filePath: String) {
+    func play() {
+        guard let filePath = filePath else {
+            return
+        }
+        if player != nil {
+            player?.play()
+            return
+        }
         player = try? AVAudioPlayer(contentsOf: URL(fileURLWithPath: filePath))
         player?.delegate = self
         rate = initialRate
@@ -29,12 +41,12 @@ class SpeedUpPlayer: NSObject {
         player?.setVolume(20, fadeDuration: 0)
     }
     
-    func play() {
-        player?.play()
-    }
-    
     func pause() {
         player?.pause()
+    }
+    
+    func isPaused() -> Bool {
+        return player?.isPlaying != nil
     }
     
     func stop() {

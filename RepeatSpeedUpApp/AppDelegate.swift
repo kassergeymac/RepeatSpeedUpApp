@@ -14,11 +14,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
 
+    var store = Store.shared
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-        let contentView = ContentView().environment(\.managedObjectContext, persistentContainer.viewContext)
+        let contentView = ContentView(store: store).environment(\.managedObjectContext, persistentContainer.viewContext)
 
         // Create the window and set the content view. 
         window = NSWindow(
@@ -139,8 +140,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         openPanel.allowedFileTypes = ["mp3"]
         if (openPanel.runModal() == .OK) {
             if let result = openPanel.url {
-                let contentView = ContentView(filePath: result.path)
-                window.contentView = NSHostingView(rootView: contentView)
+                store.filePath = result.path
             }
         } else {
             return

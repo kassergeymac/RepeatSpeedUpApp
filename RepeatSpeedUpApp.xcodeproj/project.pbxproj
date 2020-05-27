@@ -16,6 +16,7 @@
 		9012F6B224548C2D0095C7F9 /* RepeatSpeedUpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F6B124548C2D0095C7F9 /* RepeatSpeedUpAppTests.swift */; };
 		9012F6BD24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F6BC24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift */; };
 		904E4CE62455ED2900853C1F /* SpeedUpPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E4CE52455ED2900853C1F /* SpeedUpPlayer.swift */; };
+		90778CB6247F00B300090F7D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90778CB5247F00B300090F7D /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9012F6BC24548C2D0095C7F9 /* RepeatSpeedUpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatSpeedUpAppUITests.swift; sourceTree = "<group>"; };
 		9012F6BE24548C2D0095C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		904E4CE52455ED2900853C1F /* SpeedUpPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedUpPlayer.swift; sourceTree = "<group>"; };
+		90778CB5247F00B300090F7D /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9012F69824548C280095C7F9 /* AppDelegate.swift */,
 				9012F69A24548C280095C7F9 /* ContentView.swift */,
 				904E4CE52455ED2900853C1F /* SpeedUpPlayer.swift */,
+				90778CB5247F00B300090F7D /* Store.swift */,
 				9012F69F24548C2D0095C7F9 /* Assets.xcassets */,
 				9012F6A424548C2D0095C7F9 /* Main.storyboard */,
 				9012F6A724548C2D0095C7F9 /* Info.plist */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90778CB6247F00B300090F7D /* Store.swift in Sources */,
 				9012F69B24548C280095C7F9 /* ContentView.swift in Sources */,
 				904E4CE62455ED2900853C1F /* SpeedUpPlayer.swift in Sources */,
 				9012F69924548C280095C7F9 /* AppDelegate.swift in Sources */,

@@ -9,37 +9,52 @@
 import SwiftUI
 
 struct ContentView: View {
-    let delimiter:String.Element = "\\"
+    let delimiter:String.Element = "/"
     let speedUpPlayer = SpeedUpPlayer()
-    @State var filePath: String? {
-        didSet {
-            speedUpPlayer.stop()
-        }
-    }
+    @ObservedObject var store: Store
     var body: some View {
         VStack {
-            Text("File name: \(String(filePath?.split(separator: self.delimiter).last ?? ""))")
-            Button(action: {
-                guard let filePath = self.filePath else {
-                    return
+            Text("File name: \(String(store.filePath?.split(separator: self.delimiter).last ?? ""))")
+                .padding(5)
+                .lineLimit(3)
+                .frame(maxWidth: .infinity, maxHeight: 58, alignment: .topLeading)
+            HStack {
+                Button(action: {
+                    guard let filePath = self.store.filePath else {
+                        return
+                    }
+                    if self.speedUpPlayer.filePath != filePath {
+                        self.speedUpPlayer.filePath = filePath
+                    }
+                    self.speedUpPlayer.play()
+                }) {
+                    Text("Play")
                 }
-                self.speedUpPlayer.play(filePath: filePath)
-            }) {
-                Text("Play")
+                Button(action: {
+                    self.speedUpPlayer.pause()
+                }) {
+                    Text("Pause")
+                }
+                Button(action: {
+                    self.speedUpPlayer.stop()
+                }) {
+                    Text("Stop")
+                }
             }
-        }.padding().frame(minWidth: 480,
-                          idealWidth: 480,
-                          maxWidth: .infinity,
-                          minHeight: 300,
-                          idealHeight: 300,
-                          maxHeight: .infinity,
-                          alignment: .center)
+            Spacer()
+        }.padding(10).frame(minWidth: 480,
+                            idealWidth: 480,
+                            maxWidth: .infinity,
+                            minHeight: 300,
+                            idealHeight: 300,
+                            maxHeight: .infinity,
+                            alignment: .center)
     }
 }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(store: Store())
     }
 }
